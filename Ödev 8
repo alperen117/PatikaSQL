@@ -1,0 +1,71 @@
+CREATE TABLE author(
+	id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL,
+	email VARCHAR(100) ,
+	birthday DATE
+);
+
+insert into MOCK_DATA (first_name, email, birthday) values ('Marin', 'mroggeman0@hubpages.com', '2023-08-19');
+insert into MOCK_DATA (first_name, email, birthday) values ('Gwenora', 'gfreegard1@npr.org', '2024-01-20');
+insert into MOCK_DATA (first_name, email, birthday) values ('Hammad', 'hnoakes2@vinaora.com', '2023-10-22');
+insert into MOCK_DATA (first_name, email, birthday) values ('Arnie', 'astollhofer3@google.es', '2023-12-26');
+insert into MOCK_DATA (first_name, email, birthday) values ('Jere', 'jsothcott4@state.tx.us', '2023-11-02');
+insert into MOCK_DATA (first_name, email, birthday) values ('Jilli', 'jbunyard5@desdev.cn', '2023-05-26');
+insert into MOCK_DATA (first_name, email, birthday) values ('Ginevra', 'gcurrall6@virginia.edu', '2023-06-03');
+insert into MOCK_DATA (first_name, email, birthday) values ('Ingaborg', 'ibriggdale7@prlog.org', '2023-04-16');
+insert into MOCK_DATA (first_name, email, birthday) values ('Corbie', 'ccolbrun8@senate.gov', '2023-11-13');
+insert into MOCK_DATA (first_name, email, birthday) values ('Waite', 'wglendzer9@rediff.com', '2023-11-15');
+insert into MOCK_DATA (first_name, email, birthday) values ('Yelena', 'ysultanaa@lulu.com', '2024-01-25');
+insert into MOCK_DATA (first_name, email, birthday) values ('Rochelle', 'rgirkinb@yahoo.com', '2023-11-26');
+insert into MOCK_DATA (first_name, email, birthday) values ('Gerard', 'gringrosec@sfgate.com', '2023-03-06');
+insert into MOCK_DATA (first_name, email, birthday) values ('Jaymie', 'jnowaczykd@scientificamerican.com', '2023-11-28');
+insert into MOCK_DATA (first_name, email, birthday) values ('Amerigo', 'abovise@baidu.com', '2023-12-08');
+insert into MOCK_DATA (first_name, email, birthday) values ('Haze', 'hbecksonf@booking.com', '2024-01-20');
+insert into MOCK_DATA (first_name, email, birthday) values ('Hube', 'hoaksg@sitemeter.com', '2023-09-06');
+insert into MOCK_DATA (first_name, email, birthday) values ('Oona', 'oortnerh@geocities.com', '2023-09-18');
+insert into MOCK_DATA (first_name, email, birthday) values ('Frazier', 'feskrieti@upenn.edu', '2023-11-12');
+insert into MOCK_DATA (first_name, email, birthday) values ('Wendie', 'wsheardownj@themeforest.net', '2023-11-04');
+insert into MOCK_DATA (first_name, email, birthday) values ('Legra', 'llawerencek@taobao.com', '2023-05-22');
+insert into MOCK_DATA (first_name, email, birthday) values ('Adams', 'ablaskel@geocities.com', '2023-06-16');
+insert into MOCK_DATA (first_name, email, birthday) values ('Blancha', 'bfranzelm@alexa.com', '2023-05-15');
+insert into MOCK_DATA (first_name, email, birthday) values ('Petronia', 'poffelln@dell.com', '2023-02-28');
+insert into MOCK_DATA (first_name, email, birthday) values ('Blair', 'bpadfieldo@storify.com', '2024-01-15');
+insert into MOCK_DATA (first_name, email, birthday) values ('Denice', 'dpaynterp@dell.com', '2023-05-28');
+insert into MOCK_DATA (first_name, email, birthday) values ('Rowen', 'rmericq@free.fr', '2023-04-02');
+insert into MOCK_DATA (first_name, email, birthday) values ('Moises', 'mpizzier@sohu.com', '2023-07-11');
+insert into MOCK_DATA (first_name, email, birthday) values ('Silvana', 'snaisbys@nps.gov', '2024-01-14');
+insert into MOCK_DATA (first_name, email, birthday) values ('Lesley', 'lseyst@friendfeed.com', '2023-07-10');
+insert into MOCK_DATA (first_name, email, birthday) values ('Herculie', 'hrugeru@deviantart.com', '2023-06-20');
+insert into MOCK_DATA (first_name, email, birthday) values ('Gill', 'gwhitlawv@lycos.com', '2023-02-18');
+insert into MOCK_DATA (first_name, email, birthday) values ('Hannah', 'hfilshinw@trellian.com', '2023-07-05');
+insert into MOCK_DATA (first_name, email, birthday) values ('Tarah', 'tcasollax@wikipedia.org', '2023-05-11');
+insert into MOCK_DATA (first_name, email, birthday) values ('Emmanuel', 'eheadeyy@aboutads.info', '2023-09-30');
+insert into MOCK_DATA (first_name, email, birthday) values ('Dulcinea', 'dfinlasonz@multiply.com', '2023-09-12');
+insert into MOCK_DATA (first_name, email, birthday) values ('Esme', 'ewelbourn10@mozilla.org', '2023-04-13');
+insert into MOCK_DATA (first_name, email, birthday) values ('Ashely', 'amossdale11@rakuten.co.jp', '2023-10-19');
+insert into MOCK_DATA (first_name, email, birthday) values ('Milo', 'mpalay12@apache.org', '2023-07-12');
+insert into MOCK_DATA (first_name, email, birthday) values ('Christophe', 'cgrimwad13@amazon.co.jp', '2023-11-05');
+insert into MOCK_DATA (first_name, email, birthday) values ('Blair', 'bpilbeam14@g.co', '2023-09-28');
+insert into MOCK_DATA (first_name, email, birthday) values ('Hedwiga', 'hmcdougald15@barnesandnoble.com', '2023-03-28');
+insert into MOCK_DATA (first_name, email, birthday) values ('Beatrisa', 'bwarlow16@bloomberg.com', '2023-06-10');
+insert into MOCK_DATA (first_name, email, birthday) values ('Kipper', 'ksneesby17@smh.com.au', '2023-12-30');
+insert into MOCK_DATA (first_name, email, birthday) values ('Claybourne', 'cgutowska18@paypal.com', '2023-10-23');
+insert into MOCK_DATA (first_name, email, birthday) values ('Alexei', 'arudolf19@icq.com', '2023-10-13');
+insert into MOCK_DATA (first_name, email, birthday) values ('Emery', 'eohrtmann1a@spotify.com', '2023-08-27');
+insert into MOCK_DATA (first_name, email, birthday) values ('Rudolph', 'rgilhouley1b@merriam-webster.com', '2023-09-25');
+insert into MOCK_DATA (first_name, email, birthday) values ('Kameko', 'kwigzell1c@studiopress.com', '2023-05-21');
+insert into MOCK_DATA (first_name, email, birthday) values ('Ebonee', 'eschindler1d@51.la', '2024-01-12');
+
+
+UPDATE author
+SET first_name = 'Alperen',
+	last_name = 'Türkmen',
+	email = 'atrkmen0@uiuc.edu',
+	birthday = '2000-02-03'
+WHERE id > 45;
+
+
+DELETE FROM author
+WHERE id<6;
+
+SELECT * FROM author
